@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ecf1f1;
+  font-family: Century Gothic;
+  color: #414141;
+}
+
+h1 {
+  background: #eff3f3;
+  padding: 2rem 3rem 2rem 3rem;
+  border-radius: 100px;
+  -webkit-box-shadow: -10px -10px 20px #ffffff, inset 5px 5px 20px #f3f3f3, 3px 6px 30px #0000003b;
+          box-shadow: -10px -10px 20px #ffffff, inset 5px 5px 20px #f3f3f3, 3px 6px 30px #0000003b;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: 800ms;
+          transition-duration: 800ms;
+  font-size: 3rem;
+}
+
+h1:hover {
+  -webkit-box-shadow: 10px 10px 20px #ffffff, inset -5px -5px 20px #f3f3f3, -3px -6px 30px #0000003b;
+          box-shadow: 10px 10px 20px #ffffff, inset -5px -5px 20px #f3f3f3, -3px -6px 30px #0000003b;
+}
+
+button {
+  margin-top: 5rem;
+  outline: none;
+  height: 50px;
+  width: 150px;
+  font-size: 1.2rem;
+  letter-spacing: .2rem;
+  background: #eff3f3;
+  -webkit-box-shadow: -10px -10px 20px #ffffff, inset 5px 5px 20px #f3f3f3, 3px 6px 30px #0000003b;
+          box-shadow: -10px -10px 20px #ffffff, inset 5px 5px 20px #f3f3f3, 3px 6px 30px #0000003b;
+  border-radius: 100px;
+  border: 0;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: 800ms;
+          transition-duration: 800ms;
+}
+
+button:hover {
+  -webkit-box-shadow: 10px 10px 20px #ffffff, inset -5px -5px 20px #f3f3f3, -3px -6px 30px #0000003b;
+          box-shadow: 10px 10px 20px #ffffff, inset -5px -5px 20px #f3f3f3, -3px -6px 30px #0000003b;
+}
+
+.pContainer {
+  margin-top: 5rem;
+  width: 40%;
+  padding: 2rem;
+  -webkit-box-shadow: -10px -10px 20px #ffffff, inset 5px 5px 20px #f3f3f3, 3px 6px 30px #0000003b;
+          box-shadow: -10px -10px 20px #ffffff, inset 5px 5px 20px #f3f3f3, 3px 6px 30px #0000003b;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: 800ms;
+          transition-duration: 800ms;
+  line-height: 1.8rem;
+  word-spacing: .3rem;
+}
+
+.pContainer:hover {
+  -webkit-box-shadow: 10px 10px 20px #ffffff, inset -5px -5px 20px #f3f3f3, -3px -6px 30px #0000003b;
+          box-shadow: 10px 10px 20px #ffffff, inset -5px -5px 20px #f3f3f3, -3px -6px 30px #0000003b;
+}
+
+.container {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
